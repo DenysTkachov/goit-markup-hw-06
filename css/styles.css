@@ -518,7 +518,7 @@ img {
 }
 
 .subscribe-btn {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
@@ -727,7 +727,7 @@ img {
   fill: #ffffff;
 }
 
-.modal-Feedback {
+.modal-feedback {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
