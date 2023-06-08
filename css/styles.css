@@ -444,8 +444,7 @@ img {
 }
 
 .social {
-  margin-right: 120px;
-  margin-left: 80px;
+  margin-right: 120px;  
 }
 
 .social-title {
@@ -787,7 +786,7 @@ img {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
-  display: block;
+  fill: #2e2f42;
   transition: fill var(--chang-conditions);
 }
 
@@ -805,7 +804,7 @@ img {
   background-color: transparent; 
   outline: transparent;
   transition: border-color var(--chang-conditions);
-  margin-bottom: 8px;
+  display: block;
 }
 
 .modal-form-area:focus {
@@ -834,6 +833,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 
@@ -866,8 +866,9 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--color-no_active-elements);
+  color: var(--color-no_active-elements);  
 }
+
 
 .modal-form-submit-btn {
   font-family: "Roboto", sans-serif;
