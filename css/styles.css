@@ -496,10 +496,6 @@ img {
   margin-bottom: 16px;
 }
 
-.subscribe-place {
-  display: flex;
-  gap: 24px;
-}
 
 .subscribe-input {
   width: 264px;
@@ -507,10 +503,10 @@ img {
   border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: #2e2f42;
+  background-color: transparent;
   padding: 8px 16px;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
 }
@@ -524,8 +520,8 @@ img {
 .subscribe-btn {
   width: 165px;
   height: 40px;
-  background: #4d5ae5;
   border-radius: 4px;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -534,9 +530,17 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
 }
 .subscribe-icon {
   margin-left: 16px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
 }
 
 /* <!-- Portfolio --> */
