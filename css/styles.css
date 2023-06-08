@@ -863,14 +863,18 @@ img {
   outline: 1px solid #4d5ae5;
 }
 
+.modal-form-link {
+  color: #4d5ae5;
+}
+
 .modal-form-check-desc {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-  /* margin-bottom: 24px; */
-  align-items: end;
+  /* display: flex;
+  margin-bottom: 24px;
+  align-items: end; */
 }
 
 .modal-form-submit-btn {
