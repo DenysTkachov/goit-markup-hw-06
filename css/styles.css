@@ -741,15 +741,25 @@ img {
   flex-direction: column;
 }
 .modal-form-field {
-  margin-bottom: 8px;
-}
-.modal-form-desc {
   display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
+}
+
+.modal-form-message {
+  margin-bottom: 16px;
+}
+
+.modal-form-container {
+  margin-bottom: 8px;
+}
+
+
+.modal-form-desc {
+  position: relative;
 }
 
 .modal-input {
@@ -757,10 +767,11 @@ img {
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  padding-left: 43px;
+  padding-left: 38px;
+  outline: transparent;
   font-size: 18px;
   line-height: 1.5;
-  color: #000000;
+  background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -772,39 +783,49 @@ img {
   fill: #4d5ae5;
 }
 
-.modal-form-input-icon {
-  display: block;
-  position: relative;
-}
+
 .modal-form-icon {
   position: absolute;
   top: 50%;
-  left: 12px;
+  left: 16px;
   transform: translateY(-50%);
   display: block;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-massage {
+.modal-form-area {
   width: 100%;
   height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
   padding: 8px 16px;
   resize: none;
+  border: 1px solid rgba(46, 47, 66, 0.2);
   border-radius: 4px;
+  background-color: transparent; 
+  outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 8px;
 }
 
-.modal-form-massage:focus {
+.modal-form-area:focus {
   outline: none;
   border-color: #4d5ae5;
 }
 
-.modal-form-massage::placeholder {
+.modal-form-area::placeholder {
   color: rgba(46, 47, 66, 0.4);
   font-size: 12px;
   line-height: 1.17;
 }
+
+
+.modal-form-checkbox {
+  margin-bottom: 24px;
+}
+
 
 .modal-form-check-desc::before {
   display: block;
@@ -835,7 +856,7 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: flex;
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
   align-items: end;
 }
 
